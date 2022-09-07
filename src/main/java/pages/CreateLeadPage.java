@@ -14,7 +14,9 @@ public class CreateLeadPage extends ProjectSpecificMethod {
 	}	
 	
 	public void enterFname() {
-		//Enter the FirstName
+
+			//Enter the First name
+
 		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Vidya");
 	}
 	
