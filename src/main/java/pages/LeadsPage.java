@@ -9,7 +9,7 @@ public class LeadsPage extends ProjectSpecificMethod{
 		driver.findElement(By.linkText("Create Lead")).click();
 		String title=driver.getTitle();
 		System.out.println(title);
-		System.out.println("merge Conflict");
+		System.out.println("merge Conflicts");
 		
 	}
 }
