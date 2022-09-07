@@ -8,7 +8,9 @@ public class CreateLeadPage extends ProjectSpecificMethod {
 
 	
 	public void enterCname() {
+		//Enter the CompanyName
 		driver.findElement(By.id("createLeadForm_companyName")).sendKeys("TL");
+		
 	}
 	
 	
