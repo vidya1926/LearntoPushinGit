@@ -20,6 +20,7 @@ public class CreateLeadPage extends ProjectSpecificMethod {
 	}
 	
 	public void enterLname() {
+		//Enter the Last name
 		driver.findElement(By.id("createLeadForm_lastName")).sendKeys("R");
 	}
 	
