@@ -10,5 +10,6 @@ public class LeadsPage extends ProjectSpecificMethod{
 		String title=driver.getTitle();
 		System.out.println(title);
 		System.out.println("Learns merge Conflift");
+
 	}
 }
