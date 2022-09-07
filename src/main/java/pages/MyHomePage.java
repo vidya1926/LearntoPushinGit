@@ -8,7 +8,9 @@ public class MyHomePage extends ProjectSpecificMethod {
 
 	
 	public void clickLeads() {
+		
 		driver.findElement(By.linkText("Leads")).click();
+		System.out.println(driver.getTitle());
 	}
 	
 }
