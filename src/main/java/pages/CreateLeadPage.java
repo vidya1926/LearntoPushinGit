@@ -11,10 +11,10 @@ public class CreateLeadPage extends ProjectSpecificMethod {
 		//Enter the CompanyName
 		driver.findElement(By.id("createLeadForm_companyName")).sendKeys("TL");
 		
-	}
-	
+	}	
 	
 	public void enterFname() {
+		//Enter the FirstName
 		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Vidya");
 	}
 	
