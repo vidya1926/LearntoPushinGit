@@ -1,5 +1,4 @@
 pages\MyHomePage.class
-testcases\ExecutableTestng.class
 pages\Loginpage.class
 testcases\Logintestcase.class
 pages\CreateLeadPage.class
