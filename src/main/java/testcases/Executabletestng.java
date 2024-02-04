@@ -19,6 +19,7 @@ public class Executabletestng {
 		List<XmlClass> classes = new ArrayList<XmlClass>();
 		classes.add(new XmlClass("testcases.Logintestcase"));
 		test.setXmlClasses(classes) ;
+
 		
 		List<XmlSuite> suites = new ArrayList<XmlSuite>();
 		suites.add(suite);
