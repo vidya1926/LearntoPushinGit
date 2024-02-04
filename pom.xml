@@ -18,6 +18,7 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.2.1</version>
 		</dependency>
+		<!--comment-->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
