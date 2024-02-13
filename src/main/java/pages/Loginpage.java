@@ -8,6 +8,7 @@ public class Loginpage extends ProjectSpecificMethod {
 
 	// action+WebEle
 	public Loginpage enterUsername() {
+		
 		driver.findElement(By.id("username")).sendKeys("demosalesManager");
 	//	Loginpage lp=new Loginpage();
 		//return lp;
